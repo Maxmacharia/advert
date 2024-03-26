@@ -106,7 +106,7 @@ async function fetchData(url) {
       };
 
       try {
-          const response = await fetch('https://fastapiapp-production.up.railway.app/docs/users/CreateUser', {
+          const response = await fetch('https://fastapiapp-production.up.railway.app/docs#/users/create_user_users__post', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
